@@ -1,25 +1,21 @@
-# mini-app-releases
+# 미니 시리즈 다운로드
 
-미니 시리즈 Windows 앱의 공식 다운로드 및 자동 업데이트 배포 저장소입니다. 각 앱의 본체 소스는 기존 비공개 저장소에서 관리합니다.
+Windows x64 앱의 공식 배포 저장소입니다. 실행파일 이름은 버전 없이 유지하고 버전은 앱 정보·EXE 속성·릴리스에서 관리합니다.
 
-## 공개 저장소 사용 방법
+| 앱 | 버전 | 다운로드 | 안내 |
+| --- | --- | --- | --- |
+| Mini Audio | 1.0.11 | [MiniAudio.exe](https://github.com/Esper80/mini-app-releases/releases/download/mini-audio/v1.0.11/MiniAudio.exe) | [릴리스·필수 자료](https://github.com/Esper80/mini-app-releases/releases/tag/mini-audio/v1.0.11) |
+| Mini Monitor | 1.3.1 | [MiniMonitor.exe](https://github.com/Esper80/mini-app-releases/releases/download/mini-resource-monitor/v1.3.1/MiniMonitor.exe) | [릴리스·필수 자료](https://github.com/Esper80/mini-app-releases/releases/tag/mini-resource-monitor/v1.3.1) |
+| Mini Capture | 1.2 | [MiniCapture.exe](https://github.com/Esper80/mini-app-releases/releases/download/mini-capture/v1.2/MiniCapture.exe) | [릴리스·필수 자료](https://github.com/Esper80/mini-app-releases/releases/tag/mini-capture/v1.2) |
+| Mini MP3 Maker | 1.2.7 | [MiniMP3Maker.exe](https://github.com/Esper80/mini-app-releases/releases/download/mini-mp3-maker/v1.2.7/MiniMP3Maker.exe) | [릴리스·필수 자료](https://github.com/Esper80/mini-app-releases/releases/tag/mini-mp3-maker/v1.2.7) |
+| MiniTV Link PC | 1.2.2 | [MiniTVLink.exe](https://github.com/Esper80/mini-app-releases/releases/download/mini-tv-link/v1.2.2/MiniTVLink.exe) | [릴리스·필수 자료](https://github.com/Esper80/mini-app-releases/releases/tag/mini-tv-link/v1.2.2) |
 
-게시·업데이트 작업자는 [공통 배포 절차](docs/PUBLISHING.md)를 먼저 읽으세요. 앱별 릴리스 구분, 실행파일 이름, 안정 채널 목록, 검증·게시 순서와 복구 방법을 설명합니다.
+위 표는 이번 배포 대상입니다. 정식 게시 여부는 각 릴리스 페이지에서 확인하세요. 업데이트 목록 활성화 상태는 [운영 기록](docs/ACTIVATION.md)을 따릅니다.
 
-실행파일은 이 저장소의 Git 기록이 아닌 **GitHub Releases 첨부 자산**으로 배포합니다. 앱별로 독립된 릴리스를 사용하며 저장소 전체의 latest를 특정 앱의 최신 버전으로 간주하지 않습니다.
+기존 updater 미지원 버전에서는 이번 지원 버전을 한 번 수동으로 내려받아야 합니다. 기존 바로가기·Windows 자동 실행이 이전 버전 파일을 가리키면 새 EXE 경로로 변경하세요. 이후 업데이트는 현재 실행 경로를 유지합니다.
 
-## 대상 앱
+앱에서 시작 시 확인 여부와 자동 다운로드·설치를 선택할 수 있습니다. 시작 시 확인은 기본 켬, 자동 설치는 기본 끔입니다. 수동 확인도 지원합니다. 네트워크 오류나 검증 실패 시 기존 앱을 계속 사용합니다. 검증한 같은 EXE는 다운로드 완료 후 1시간 동안 재사용합니다.
 
-| 앱 | 앱 ID | 전환 목표 EXE |
-| --- | --- | --- |
-| Mini Audio | mini-audio | MiniAudio.exe |
-| Mini Monitor | mini-resource-monitor | MiniMonitor.exe |
-| Mini Capture | mini-capture | MiniCapture.exe |
-| Mini MP3 Maker | mini-mp3-maker | MiniMP3Maker.exe |
-| MiniTV Link PC | mini-tv-link | MiniTVLink.exe |
+Audio의 LGPL 라이브러리 교체 자료와 MP3 Maker의 구성요소 원본 소스·빌드 자료는 해당 릴리스에서 함께 제공합니다. Capture 릴리스 첨부는 EXE 하나이며 고지는 앱에 내장됩니다. TV Link는 PC 앱 배포이며 기기 펌웨어를 자동 설치하지 않습니다.
 
-## 전환 상태
-
-이 안내는 공통 배포처와 사용 방법을 기록한 것입니다. 문서 생성만으로 기존 앱에 자동 업데이트가 생기거나 기존 릴리스·파일명·CI가 전환되지는 않습니다. 실제 공개 파일과 업데이트 지원 여부는 각 릴리스 안내를 확인하세요. 활성 업데이트 목록은 검증된 구현·게시 준비 후 별도로 제공합니다.
-
-앱 본체 소스, 사용자 설정·로그·계정 정보·토큰은 이곳에 게시하지 않습니다. 필요한 구성요소 고지·배포 자료는 각 앱의 기존 요구사항을 유지합니다.
+본체 소스·개인 설정·로그·인증 정보·서명 비밀키는 이 공개 저장소에 게시하지 않습니다. [공통 배포 절차](docs/PUBLISHING.md)를 먼저 읽으세요. 공동 저장소의 `releases/latest`를 앱별 최신 버전 판정에 사용하지 않습니다.
