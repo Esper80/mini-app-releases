@@ -10,7 +10,7 @@ Windows x64 앱의 공식 배포 저장소입니다. 실행파일 이름은 버�
 | Mini MP3 Maker | 1.2.7 | [MiniMP3Maker.exe](https://github.com/Esper80/mini-app-releases/releases/download/mini-mp3-maker/v1.2.7/MiniMP3Maker.exe) | [릴리스·필수 자료](https://github.com/Esper80/mini-app-releases/releases/tag/mini-mp3-maker/v1.2.7) |
 | MiniTV Link PC | 1.2.2 | [MiniTVLink.exe](https://github.com/Esper80/mini-app-releases/releases/download/mini-tv-link/v1.2.2/MiniTVLink.exe) | [릴리스·필수 자료](https://github.com/Esper80/mini-app-releases/releases/tag/mini-tv-link/v1.2.2) |
 
-위 표는 이번 배포 대상입니다. 정식 게시 여부는 각 릴리스 페이지에서 확인하세요. 업데이트 목록 활성화 상태는 [운영 기록](docs/ACTIVATION.md)을 따릅니다.
+위 버전은 정식 게시와 익명 다운로드 검증을 마쳤습니다. 공개 업데이트는 `updates/stable.json`의 서명된 앱별 안정 목록을 사용합니다. 생성·만료 시각과 검증 내역은 [운영 기록](docs/ACTIVATION.md)을 확인하세요.
 
 기존 updater 미지원 버전에서는 이번 지원 버전을 한 번 수동으로 내려받아야 합니다. 기존 바로가기·Windows 자동 실행이 이전 버전 파일을 가리키면 새 EXE 경로로 변경하세요. 이후 업데이트는 현재 실행 경로를 유지합니다.
 
