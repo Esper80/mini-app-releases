@@ -8,7 +8,7 @@ Windows x64 앱의 공식 배포 저장소입니다. 실행파일 이름은 버�
 | Mini Monitor | 1.8 | [MiniMonitor.exe](https://github.com/Esper80/mini-app-releases/releases/download/mini-resource-monitor/v1.8/MiniMonitor.exe) | [릴리스·필수 자료](https://github.com/Esper80/mini-app-releases/releases/tag/mini-resource-monitor/v1.8) |
 | Mini Capture | 1.2 | [MiniCapture.exe](https://github.com/Esper80/mini-app-releases/releases/download/mini-capture/v1.2/MiniCapture.exe) | [릴리스·필수 자료](https://github.com/Esper80/mini-app-releases/releases/tag/mini-capture/v1.2) |
 | Mini MP3 Maker | 1.2.7 | [MiniMP3Maker.exe](https://github.com/Esper80/mini-app-releases/releases/download/mini-mp3-maker/v1.2.7/MiniMP3Maker.exe) | [릴리스·필수 자료](https://github.com/Esper80/mini-app-releases/releases/tag/mini-mp3-maker/v1.2.7) |
-| MiniTV Link PC | 1.2.3 | [MiniTVLink.exe](https://github.com/Esper80/mini-app-releases/releases/download/mini-tv-link/v1.2.3/MiniTVLink.exe) | [릴리스·필수 자료](https://github.com/Esper80/mini-app-releases/releases/tag/mini-tv-link/v1.2.3) |
+| MiniTV Link PC | 1.2.4 | [MiniTVLink.exe](https://github.com/Esper80/mini-app-releases/releases/download/mini-tv-link/v1.2.4/MiniTVLink.exe) | [릴리스·필수 자료](https://github.com/Esper80/mini-app-releases/releases/tag/mini-tv-link/v1.2.4) |
 
 위 버전은 정식 게시와 익명 다운로드 검증을 마쳤습니다. 공개 업데이트는 `updates/stable.json`의 서명된 앱별 안정 목록을 사용합니다. 생성·만료 시각과 검증 내역은 [운영 기록](docs/ACTIVATION.md)을 확인하세요.
 
@@ -20,7 +20,7 @@ Audio의 LGPL 라이브러리 교체 자료와 MP3 Maker의 구성요소 원본 
 
 본체 소스·개인 설정·로그·인증 정보·서명 비밀키는 이 공개 저장소에 게시하지 않습니다. [공통 배포 절차](docs/PUBLISHING.md)를 먼저 읽으세요. 공동 저장소의 `releases/latest`를 앱별 최신 버전 판정에 사용하지 않습니다.
 
-MiniTV Link PC 1.2.3은 연결 확인 후 하단 적용으로 새 기기를 등록하고, 기기 다시 찾기로 기존 동일 기기의 변경된 IP를 복구합니다. 현재 기기를 변경 없이 확인한 창에서 IP 복구 후 이전 주소가 남아 적용이 실패하면 환경설정 창을 닫았다 다시 열어 주세요. 기기 펌웨어는 변경하지 않습니다.
+MiniTV Link PC 1.2.4는 현재 기기를 연결 확인한 창에서 IP 복구 후 이전 주소가 남던 문제를 수정합니다. 창을 다시 열지 않고 다른 옵션을 적용할 수 있으며 확인해 둔 새 연결 후보는 보존합니다. 새 기기 등록은 일반 탭의 연결 확인 후 하단 적용, 기존 동일 기기의 변경된 IP 복구는 기기 다시 찾기를 사용합니다. 기기 펌웨어는 변경하지 않습니다.
 
 Mini Monitor 1.5·1.6은 URL 검사 오류 때문에 새 EXE를 내려받지 못합니다. 앱을 Exit로 종료하고 현재 경로의 MiniMonitor.exe만 1.8로 한 번 수동 교체하세요. 설정·인증 폴더는 유지합니다. 1.8은 다른 앱·임의 URL을 허용하지 않고 Rust 다운로드 URL의 인코딩 검사를 수정합니다.
 
