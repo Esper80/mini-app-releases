@@ -34,12 +34,12 @@
       "size": 26689024
     },
     "mini-tv-link": {
-      "version": "1.2.2",
+      "version": "1.2.3",
       "arch": "win-x64",
       "filename": "MiniTVLink.exe",
-      "tag": "mini-tv-link/v1.2.2",
-      "sha256": "38fc98e9ab854e583b2f1d9713482c1bb04fb6f62152bdbf9477fe2c092e601e",
-      "size": 52238266
+      "tag": "mini-tv-link/v1.2.3",
+      "sha256": "5a71ddf0d547f60828abe831b58316c35943ded043d7925a96ade39826edd947",
+      "size": 52249957
     }
   }
 }
