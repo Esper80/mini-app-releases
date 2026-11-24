@@ -7,10 +7,12 @@ Windows x64 앱의 공식 배포 저장소입니다. 실행파일 이름은 버�
 | Mini Audio | 1.0.11 | [MiniAudio.exe](https://github.com/Esper80/mini-app-releases/releases/download/mini-audio/v1.0.11/MiniAudio.exe) | [릴리스·필수 자료](https://github.com/Esper80/mini-app-releases/releases/tag/mini-audio/v1.0.11) |
 | Mini Monitor | 1.11 | [MiniMonitor.exe](https://github.com/Esper80/mini-app-releases/releases/download/mini-resource-monitor/v1.11/MiniMonitor.exe) | [릴리스·필수 자료](https://github.com/Esper80/mini-app-releases/releases/tag/mini-resource-monitor/v1.11) |
 | Mini Capture | 1.3 | [MiniCapture.exe](https://github.com/Esper80/mini-app-releases/releases/download/mini-capture/v1.3/MiniCapture.exe) | [릴리스 설명](https://github.com/Esper80/mini-app-releases/releases/tag/mini-capture/v1.3) |
-| Mini MP3 Maker | 1.2.7 | [MiniMP3Maker.exe](https://github.com/Esper80/mini-app-releases/releases/download/mini-mp3-maker/v1.2.7/MiniMP3Maker.exe) | [릴리스·필수 자료](https://github.com/Esper80/mini-app-releases/releases/tag/mini-mp3-maker/v1.2.7) |
+| Mini MP3 Maker | 1.3.0 | [MiniMP3Maker.exe](https://github.com/Esper80/mini-app-releases/releases/download/mini-mp3-maker/v1.3.0/MiniMP3Maker.exe) | [릴리스·필수 자료](https://github.com/Esper80/mini-app-releases/releases/tag/mini-mp3-maker/v1.3.0) |
 | MiniTV Link PC | 1.2.4 | [MiniTVLink.exe](https://github.com/Esper80/mini-app-releases/releases/download/mini-tv-link/v1.2.4/MiniTVLink.exe) | [릴리스·필수 자료](https://github.com/Esper80/mini-app-releases/releases/tag/mini-tv-link/v1.2.4) |
 
 위 버전은 정식 게시와 익명 다운로드 검증을 마쳤습니다. 공개 업데이트는 `updates/stable.json`의 서명된 앱별 안정 목록을 사용합니다. 생성·만료 시각과 검증 내역은 [운영 기록](docs/ACTIVATION.md)을 확인하세요.
+
+Mini MP3 Maker 1.3.0은 수동으로 내려받을 수 있습니다. 서명된 안정 목록의 Mini MP3 Maker 버전은 현재 1.2.7입니다.
 
 Mini Capture 1.3은 수동으로 내려받을 수 있습니다. 서명된 안정 목록의 Mini Capture 버전은 현재 1.2입니다.
 
