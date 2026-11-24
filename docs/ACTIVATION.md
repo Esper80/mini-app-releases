@@ -1,5 +1,12 @@
 # 공개 업데이트 운영 기록
 
+## Mini Monitor 1.11 — 2026-11-24 KST
+
+- 표시 항목, 블루투스 장치 또는 가로·세로 방향 변경으로 창 크기가 달라질 때 기존 좌우 부착을 유지합니다.
+- [공개 릴리스](https://github.com/Esper80/mini-app-releases/releases/tag/mini-resource-monitor/v1.11)의 카탈로그 대상은 `7fcce8b817378378d50836b9bc5f68b1109ce323`입니다.
+- `MiniMonitor.exe` FileVersion·ProductVersion 1.11, 4,072,448바이트, SHA-256 `007a177ff0b2a44d298313903bbfbae6e939fca3a01945c60c79b15002eed597`. 실행 파일·라이선스 ZIP·체크섬을 초안과 정식 익명 다운로드에서 각각 대조했습니다.
+- 공개 다운로드는 1.11입니다. 기존 키로 새 목록을 서명할 때까지 안정 목록은 Mini Monitor 1.10을 제공합니다.
+
 ## Mini Capture 1.3 — 2026-11-24 KST
 
 - 히스토리 카드의 `선택됨`을 우측 정렬하고 썸네일에서 항목을 바로 삭제할 수 있게 했습니다.
