@@ -5,6 +5,7 @@
 - 이미 게시된 세 Windows x64 EXE를 익명으로 다시 내려받아 카탈로그의 크기와 SHA-256을 대조하고 FileVersion·ProductVersion을 확인했습니다.
 - 기존 운영 키로 전체 목록을 서명하고 다섯 앱 항목을 검증했습니다. Mini Audio 1.0.11과 MiniTV Link PC 1.2.4 항목을 유지했습니다.
 - 목록 생성 KST `2026-11-24 23:26:49`, 만료 KST `2027-02-21 23:26:49` (89일). 목록 SHA-256 `c1db3d7888fa13cf8fccd8ef9bd9c893a01ab9ce219b7e7949748fa5b91e5e28`.
+- 공개 URL에서 서명한 목록의 SHA-256이 일치했습니다. 각 이전 안정 버전의 내장 엔진으로 Capture 1.2 → 1.3, MP3 Maker 1.2.7 → 1.3.0, Monitor 1.10 → 1.11 감지와 동일 버전의 최신 판정을 확인했습니다. 격리된 경로에서 세 EXE의 다운로드, 캐시 재사용, 시험 대상 파일 보존을 검증했습니다. 기존 공개 릴리스 16개의 태그 및 자산 메타데이터를 대조해 보존을 확인했습니다. [활성화 커밋](https://github.com/Esper80/mini-app-releases/commit/d8e6ce544fef405645c8cc2106323d4891500b77)
 
 ## Mini MP3 Maker 1.3.0 — 2026-11-24 KST
 
