@@ -1,25 +1,31 @@
 # 공개 업데이트 운영 기록
 
+## Mini Capture 1.3 · Mini MP3 Maker 1.3.0 · Mini Monitor 1.11 안정 목록 활성화 — 2026-11-24 KST
+
+- 이미 게시된 세 Windows x64 EXE를 익명으로 다시 내려받아 카탈로그의 크기와 SHA-256을 대조하고 FileVersion·ProductVersion을 확인했습니다.
+- 기존 운영 키로 전체 목록을 서명하고 다섯 앱 항목을 검증했습니다. Mini Audio 1.0.11과 MiniTV Link PC 1.2.4 항목을 유지했습니다.
+- 목록 생성 KST `2026-11-24 23:26:49`, 만료 KST `2027-02-21 23:26:49` (89일). 목록 SHA-256 `c1db3d7888fa13cf8fccd8ef9bd9c893a01ab9ce219b7e7949748fa5b91e5e28`.
+
 ## Mini MP3 Maker 1.3.0 — 2026-11-24 KST
 
 - URL 클릭 전체 선택, 기본 폴더 자동 저장과 중복 번호, 저장 경로 즉시 적용, 기록에서 탐색기 파일 선택을 추가했습니다.
 - [공개 릴리스](https://github.com/Esper80/mini-app-releases/releases/tag/mini-mp3-maker/v1.3.0)의 카탈로그 대상은 `56af02536cf40cee8a9aeec0390b7894702cfb9f`입니다.
 - `MiniMP3Maker.exe`의 내부 버전은 `1.3.0.0`, 크기는 `26693120` bytes, SHA-256은 `08a203b69606bccba998ed7df57a812cc0dcff95827e9e358ab425429abc9c96`입니다. 전체 첨부 7개를 초안과 정식 익명 다운로드에서 대조했습니다.
-- 공개 다운로드는 1.3.0입니다. 새 목록에 서명할 때까지 안정 목록은 1.2.7을 제공합니다.
+- 서명된 안정 목록에서 1.2.7 → 1.3.0 업데이트를 제공합니다.
 
 ## Mini Monitor 1.11 — 2026-11-24 KST
 
 - 표시 항목, 블루투스 장치 또는 가로·세로 방향 변경으로 창 크기가 달라질 때 기존 좌우 부착을 유지합니다.
 - [공개 릴리스](https://github.com/Esper80/mini-app-releases/releases/tag/mini-resource-monitor/v1.11)의 카탈로그 대상은 `7fcce8b817378378d50836b9bc5f68b1109ce323`입니다.
 - `MiniMonitor.exe` FileVersion·ProductVersion 1.11, 4,072,448바이트, SHA-256 `007a177ff0b2a44d298313903bbfbae6e939fca3a01945c60c79b15002eed597`. 실행 파일·라이선스 ZIP·체크섬을 초안과 정식 익명 다운로드에서 각각 대조했습니다.
-- 공개 다운로드는 1.11입니다. 기존 키로 새 목록을 서명할 때까지 안정 목록은 Mini Monitor 1.10을 제공합니다.
+- 서명된 안정 목록에서 1.10 → 1.11 업데이트를 제공합니다.
 
 ## Mini Capture 1.3 — 2026-11-24 KST
 
 - 히스토리 카드의 `선택됨`을 우측 정렬하고 썸네일에서 항목을 바로 삭제할 수 있게 했습니다.
 - [공개 릴리스](https://github.com/Esper80/mini-app-releases/releases/tag/mini-capture/v1.3)의 카탈로그 대상은 `a059c45acd19e7c1e86a488c4a1307701491dbb8`입니다.
 - 단일 `MiniCapture.exe`의 FileVersion과 ProductVersion은 `1.3`, 크기는 `2826752` bytes, SHA-256은 `08c3385851d797598468ac5c0f434d6b0cda1040971faef6e80505282bb88964`입니다. 초안과 정식 게시본을 각각 내려받아 CI 실행 파일과 대조했습니다.
-- 공개 다운로드는 1.3입니다. 기존 키로 새 목록에 서명할 때까지 안정 목록은 1.2를 제공합니다.
+- 서명된 안정 목록에서 1.2 → 1.3 업데이트를 제공합니다.
 
 ## Mini Monitor 1.10 — 2026-11-11 KST
 
