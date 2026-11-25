@@ -1,5 +1,12 @@
 # 공개 업데이트 운영 기록
 
+## Mini Monitor 1.12 안정 목록 — 2026-11-25 KST
+
+- 모니터·해상도별 창 위치를 기록하고 잠금·화면 꺼짐 후 원래 모니터와 해상도가 돌아오면 복원합니다.
+- [공개 릴리스](https://github.com/Esper80/mini-app-releases/releases/tag/mini-resource-monitor/v1.12)의 카탈로그 커밋은 `d1539ea67f9135ced9d5d50ea37d8b7afe67bf88`입니다. Windows x64 `MiniMonitor.exe`는 4,130,304바이트이며 SHA-256은 `f4e19fcd21f17c2e6fac443f24dee956922c24bbd7b8cbfb4233fa3fa62fb338`입니다. 공식 자산을 익명으로 다시 내려받아 검증 후보와 대조했습니다.
+- 기존 운영 키로 서명하고 다섯 앱 모두를 검증했습니다. Mini Audio 1.0.11, Mini Capture 1.3, Mini MP3 Maker 1.3.0, MiniTV Link PC 1.2.4의 항목을 유지했습니다.
+- 생성 KST `2026-11-25 13:35:01`, 만료 KST `2027-02-22 13:35:01`입니다. 서명 목록 SHA-256은 `e23ee40b485de9d460757a9d3a12c126968298597e0feda67b7dbb2db45f98f5`입니다.
+
 ## Mini Capture 1.3 · Mini MP3 Maker 1.3.0 · Mini Monitor 1.11 안정 목록 활성화 — 2026-11-24 KST
 
 - 이미 게시된 세 Windows x64 EXE를 익명으로 다시 내려받아 카탈로그의 크기와 SHA-256을 대조하고 FileVersion·ProductVersion을 확인했습니다.
