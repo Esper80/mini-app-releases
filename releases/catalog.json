@@ -10,12 +10,12 @@
       "size": 164054700
     },
     "mini-resource-monitor": {
-      "version": "1.11",
+      "version": "1.12",
       "arch": "win-x64",
       "filename": "MiniMonitor.exe",
-      "tag": "mini-resource-monitor/v1.11",
-      "sha256": "007a177ff0b2a44d298313903bbfbae6e939fca3a01945c60c79b15002eed597",
-      "size": 4072448
+      "tag": "mini-resource-monitor/v1.12",
+      "sha256": "f4e19fcd21f17c2e6fac443f24dee956922c24bbd7b8cbfb4233fa3fa62fb338",
+      "size": 4130304
     },
     "mini-capture": {
       "version": "1.3",
