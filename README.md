@@ -9,12 +9,15 @@ Windows x64 앱의 공식 배포 저장소입니다. 실행파일 이름은 버�
 | Mini Capture | 1.3 | [MiniCapture.exe](https://github.com/Esper80/mini-app-releases/releases/download/mini-capture/v1.3/MiniCapture.exe) | [릴리스 설명](https://github.com/Esper80/mini-app-releases/releases/tag/mini-capture/v1.3) |
 | Mini MP3 Maker | 1.3.0 | [MiniMP3Maker.exe](https://github.com/Esper80/mini-app-releases/releases/download/mini-mp3-maker/v1.3.0/MiniMP3Maker.exe) | [릴리스·필수 자료](https://github.com/Esper80/mini-app-releases/releases/tag/mini-mp3-maker/v1.3.0) |
 | MiniTV Link PC | 1.2.4 | [MiniTVLink.exe](https://github.com/Esper80/mini-app-releases/releases/download/mini-tv-link/v1.2.4/MiniTVLink.exe) | [릴리스·필수 자료](https://github.com/Esper80/mini-app-releases/releases/tag/mini-tv-link/v1.2.4) |
+| Mini Viewer | 1.0 | [MiniViewer.exe](https://github.com/Esper80/mini-app-releases/releases/download/mini-viewer%2Fv1.0/MiniViewer.exe) | [릴리스 설명](https://github.com/Esper80/mini-app-releases/releases/tag/mini-viewer/v1.0) |
 
 위 버전은 정식 게시와 익명 다운로드 검증을 마쳤습니다. 공개 업데이트는 `updates/stable.json`의 서명된 앱별 안정 목록을 사용합니다. 생성·만료 시각과 검증 내역은 [운영 기록](docs/ACTIVATION.md)을 확인하세요.
 
 Mini Capture 1.3, Mini MP3 Maker 1.3.0, Mini Monitor 1.12는 앱에서 업데이트 확인으로 받을 수 있습니다.
 
 기존 updater 미지원 버전에서는 이번 지원 버전을 한 번 수동으로 내려받아야 합니다. 기존 바로가기·Windows 자동 실행이 이전 버전 파일을 가리키면 새 EXE 경로로 변경하세요. 이후 업데이트는 현재 실행 경로를 유지합니다.
+
+Mini Viewer는 시작할 때 백그라운드에서 업데이트를 확인하며, 새 버전 설치는 사용자가 선택합니다.
 
 앱에서 시작 시 확인 여부와 자동 다운로드·설치를 선택할 수 있습니다. 시작 시 확인은 기본 켬, 자동 설치는 기본 끔입니다. 수동 확인도 지원합니다. 네트워크 오류나 검증 실패 시 기존 앱을 계속 사용합니다. 검증한 같은 EXE는 다운로드 완료 후 1시간 동안 재사용합니다.
 
