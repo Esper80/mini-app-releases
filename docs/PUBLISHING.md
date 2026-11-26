@@ -11,6 +11,7 @@
 - mini-capture → MiniCapture.exe
 - mini-mp3-maker → MiniMP3Maker.exe
 - mini-tv-link → MiniTVLink.exe (PC 전용)
+- mini-viewer → MiniViewer.exe
 
 공개 태그는 `앱-ID/v버전`입니다. 태그는 이 공개 저장소의 배포 기록 커밋을 가리키며 비공개 소스 커밋과 별개입니다. 버전은 숫자 2~4부분으로 비교합니다. Capture 표시 버전 `1.2`와 내부 Cargo `1.2.0`을 구분합니다. 동일·이전 버전은 설치하지 않습니다. 공동 `releases/latest`는 사용하지 않습니다.
 
@@ -46,6 +47,7 @@ payload에는 `schema: 1`, Unix 초 단위 `generated_at`, `expires_at`, 앱 ID�
 - Monitor: 설정 메뉴 안에서 확인/설치. 기존 측정·자동 실행·설정 경로를 유지합니다.
 - Capture: 미저장 캡처는 설치 차단 조건이 아닙니다. 릴리스 첨부는 EXE 정확히 하나, 원문 고지는 EXE 내장입니다.
 - MP3 Maker: 변환 작업 중 확인·다운로드·설치 불가. 완료 기록은 차단 조건이 아닙니다. 고정된 구성요소의 정확한 원본 소스·빌드 레시피·고지를 제공합니다.
+- Viewer: 현재 보는 이미지가 있으면 재시작 때 다시 엽니다. 새 버전 설치 시 사용자에게 확인하고, 릴리스는 라이선스를 내장한 EXE 하나로 배포합니다.
 - TV Link: PC 업데이트와 기기 작업/펌웨어는 별개입니다. 기기 작업 중 설치를 제한하며 PC 목록으로 `.bin`을 선택하거나 기기를 자동 플래시하지 않습니다.
 
 ## 회수와 복구

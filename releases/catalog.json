@@ -40,6 +40,14 @@
       "tag": "mini-tv-link/v1.2.4",
       "sha256": "c1854a825e85e350b88ea94365cdd71da3a13bacabfea98417764d0b81de73e9",
       "size": 52253119
+    },
+    "mini-viewer": {
+      "version": "1.0",
+      "arch": "win-x64",
+      "filename": "MiniViewer.exe",
+      "tag": "mini-viewer/v1.0",
+      "sha256": "a74409d2fb3cb4c0844ea388c9233f4c9b3f56e62379371bf1c7e1432dc89603",
+      "size": 1880576
     }
   }
 }
