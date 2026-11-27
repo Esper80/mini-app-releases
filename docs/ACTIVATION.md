@@ -1,5 +1,11 @@
 # 공개 업데이트 운영 기록
 
+## Mini Viewer 1.1.3 안정 목록 — 2026-11-27 KST
+
+- [공개 릴리스](https://github.com/Esper80/mini-app-releases/releases/tag/mini-viewer/v1.1.3)의 카탈로그 커밋은 d13912a692451c31dcb8edc33e066f088f33bd3b 입니다. Windows x64 MiniViewer.exe는 2211840바이트이며 SHA-256은 9bc3723887433ab7f3a6eea88cef0f8921a8beb2ce3b1b26efa009872a2ea1ed 입니다. 공식 자산을 익명으로 다시 내려받아 검증 후보와 대조했습니다.
+- 기존 운영 키로 서명하고 Mini Viewer와 기존 5개 앱의 항목을 검증했습니다.
+- 생성 KST 2026-11-27 18:29:52, 만료 KST 2027-02-24 18:29:52 입니다. 서명 목록 SHA-256은 250e954f70622195c7a215e3e4395bc855aa145b2eab62d92a1827d1552847da 입니다.
+
 ## Mini Viewer 1.1.2 안정 목록 — 2026-11-27 KST
 
 - [공개 릴리스](https://github.com/Esper80/mini-app-releases/releases/tag/mini-viewer/v1.1.2)의 카탈로그 커밋은 3adb6c202cf92af6913e5bff7e0a6c14dcf2a37b 입니다. Windows x64 MiniViewer.exe는 2013184바이트이며 SHA-256은 75cc41b343358f4f90cf34e9ca36171d61815d6c0adcc6389fe80a0e27325223 입니다. 공식 자산을 익명으로 다시 내려받아 검증 후보와 대조했습니다.
