@@ -42,12 +42,12 @@
       "size": 52253119
     },
     "mini-viewer": {
-      "version": "1.1.4",
+      "version": "1.1.5",
       "arch": "win-x64",
       "filename": "MiniViewer.exe",
-      "tag": "mini-viewer/v1.1.4",
-      "sha256": "99fde8cea8b8c754de1b7d9459ceee1de257f65c5c8bf980eb1fe44ee49ffe47",
-      "size": 2223616
+      "tag": "mini-viewer/v1.1.5",
+      "sha256": "a70cf2f31a0bb64ce9b6adddeaddb50324caa4dbfbf8d4752fd19a667d397b2a",
+      "size": 2252800
     }
   }
 }
